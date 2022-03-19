@@ -41,7 +41,7 @@ Variables
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
   --max-width: 1170px;
   --fixed-width: 450px;
-  --clr-pink: #f28ab2;
+  --clr-pink: #80ccff;
 }
 /*
 =============== 
@@ -154,24 +154,24 @@ main {
   text-transform: none;
   margin-bottom: 2rem;
 }
-.person {
+.fruit {
   display: grid;
   grid-template-columns: auto 1fr;
   column-gap: 0.75rem;
   margin-bottom: 1.5rem;
   align-items: center;
 }
-.person img {
+.fruit img {
   width: 75px;
   height: 75px;
   object-fit: cover;
   border-radius: 50%;
   box-shadow: var(--light-shadow);
 }
-.person h4 {
+.fruit h4 {
   margin-bottom: 0.35rem;
 }
-.person p {
+.fruit p {
   margin-bottom: 0;
 }
 .container button {
