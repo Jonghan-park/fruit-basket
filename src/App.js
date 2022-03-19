@@ -6,9 +6,11 @@ import data from './data.js';
 function App() {
     const [fruits, setFruits] = useState(data);
 
-    <main>
+    return <main>
         <section className='container'>
-            <list />
+            <h3>{fruits.length} kinds of fruit</h3>
+            <list fruits={fruits} />
+            <button onClick={() => setFruits([])}>Clear all</button>
         </section>
     </main>
 }
