@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import list from './list.js';
+import List from './List.js';
 import data from './data.js';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     return <main>
         <section className='container'>
             <h3>{fruits.length} kinds of fruit</h3>
-            <list fruits={fruits} />
+            <List fruits={fruits} />
             <button onClick={() => setFruits([])}>Clear all</button>
         </section>
     </main>
