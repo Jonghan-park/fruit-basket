@@ -11,6 +11,7 @@ function App() {
             <h3>{fruits.length} kinds of fruit</h3>
             <List fruits={fruits} />
             <button onClick={() => setFruits([])}>Clear all</button>
+            <button onClick={() => setFruits(data)}>Recover all</button>
         </section>
     </main>
 }
